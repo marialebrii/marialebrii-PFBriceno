@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+/*reset global sacamos marging y padding que trae pordefecto*/ 
+
+* {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* estilos index*/
+
+.encabezado {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+
+.list {
+    display: flex;
+    color:gray;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.list-item a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gray;
+    border-bottom: 1.5px solid #ffffff;
+    transition: all 0.5s ease;
+    
+
+}
+
+.list-item:hover a{
+    border-color: #622D55;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*estilos banner*/
+
+.banner-container {
+    width: 70vw;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+/*estilos de las imagenes de servicio*/
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 0.5 0.5 clamp(300px, 30%, 400px);
+}
+
+
+a {
+    text-decoration: none;
+    color: #622D55;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    }
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+input {
+    font-size: 1rem;
+    
+}
+
+/*estilos formulario*/
+/* Estilos generales del formulario */
+.formulario {
+    color: white;
+    background-color: #622D55;
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el formulario en pantallas más pequeñas */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 10px;
+    }
+}
+
+
+
+/* Estilos generales del footer */
+.footer {
+    background-color: gainsboro;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .redes a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer .texto {
+    margin-top: 2rem; /* Reducido a 2rem para bajar los textos */
+    font-size: small;
+    text-align: right;
+}
+
+/* Estilos para el footer responsive */
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 2rem;
+    }
+
+    .footer .redes {
+        flex-wrap: wrap;
+    }
+
+    .footer .redes a {
+        margin: 0.5rem;
+    }
+}
+
+
+/*estilos Servicios*/
+.tituloservicios {
+    text-align: center;
+    margin-top: 5rem;
+    align-items: center;
+    font-family: 'poppins';
+    font-weight: bold;
+    color: #622D55;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.textoservicios {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: 'poppins';
+    font-weight: lighter;
+    color: grey;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center; 
+}
+
+.contenedor img {
+    max-width: 400px; 
+    height: auto; 
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor p {
+    font-size: 16px;
+    color: #333;
+
+}
+
+.titulodiseño {
+    font-size: 'poppins';
+    color: #622D55;
+    text-align: center;
+       
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .contenedor img {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+
+    .contenedor p {
+        font-size: 14px; 
+}
+
+
+
+/*estilos Abaout me*/
+
+
+
+/*estilos blog*/
+
+
+
+/*estilos contact*/
