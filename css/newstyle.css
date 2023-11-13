@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200&display=swap");
+@import "../css/animaciones.css";
+* {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3d1c35;
+  font-size: 2rem;
+}
+
+.navbar-nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 5rem;
+}
+.navbar-nav .menu-nav-item {
+  font-size: 2rem;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.articles .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 0.5 0.5 clamp(300px, 30%, 400px);
+}
+.articles .article a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.articles .article h1 {
+  color: #3d1c35;
+  font-size: 4rem;
+}
+.articles .article ul {
+  list-style-type: none;
+}
+
+input {
+  font-size: 2rem;
+}
+
+.formulario {
+  color: white;
+  background-color: #622D55;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .formulario {
+    padding: 10px;
+  }
+}
+/* Estilos generales del footer */
+.footer {
+  background-color: #69375d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  /* Estilos para el footer responsive */
+}
+.footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.footer .texto {
+  margin-top: 2rem;
+  font-size: small;
+  text-align: right;
+  color: white;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+  }
+  .footer .redes {
+    flex-wrap: wrap;
+  }
+  .footer .redes a {
+    margin: 0.5rem;
+  }
+}
+
+.tituloservicios {
+  text-align: center;
+  margin-top: 5rem;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: bold;
+  color: #622D55;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.textoservicios {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-family: "poppins";
+  font-weight: lighter;
+  color: grey;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor img {
+  max-width: 400px;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.contenedor p {
+  font-size: 16px;
+  color: #333;
+}
+
+.titulodiseño {
+  font-size: "poppins";
+  color: #622D55;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contenedor img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .contenedor p {
+    font-size: 14px;
+  }
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+section img {
+  max-width: 48%;
+  height: auto;
+  border-radius: 50px;
+}
+section div {
+  flex-grow: 1;
+  max-width: 600px;
+}
+section div h2 {
+  color: #3d1c35;
+  font-size: 4rem;
+}
+section div p {
+  color: #b3b3b3;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.blog-entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+.blog-entry img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+}
+.blog-entry article {
+  flex-grow: 1;
+  max-width: 600px;
+}
+.blog-entry article h2 {
+  color: #3d1c35;
+  font-size: 1.5rem;
+}
+.blog-entry article p {
+  color: #666;
+  font-size: 1rem;
+}
+.blog-entry article time {
+  font-style: italic;
+}
+
+.formulario {
+  color: white;
+  background-color: #622D55;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .formulario {
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=newstyle.css.map */

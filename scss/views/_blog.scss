@@ -1,0 +1,32 @@
+.blog-entry {
+    @include flex-center;
+    gap: 20px; // 
+    margin: 20px; 
+    padding: 20px; 
+  
+    img {
+      max-width: 40%; 
+      height: auto; 
+      border-radius: 20px; 
+    }
+  
+    article {
+      flex-grow: 1; 
+      max-width: 600px; 
+  
+      h2 {
+        color: $font-color-principal; 
+        font-size: 1.5rem; 
+      }
+  
+      p {
+        color: #666; 
+        font-size: 1rem; 
+      }
+  
+      time {
+        font-style: italic; 
+      }
+    }
+  }
+  

@@ -1,0 +1,20 @@
+$formulario-color: white;
+$formulario-bg-color: #622D55;
+$formulario-border-radius: 15px;
+$formulario-max-width: 1200px;
+$formulario-padding: 20px;
+
+.formulario {
+  color: $formulario-color;
+  background-color: $formulario-bg-color;
+  border-radius: $formulario-border-radius;
+  max-width: $formulario-max-width;
+  margin: 0 auto;
+  padding: $formulario-padding;
+}
+
+@media (max-width: 600px) {
+  .formulario {
+      padding: 10px;
+  }
+}
