@@ -3,18 +3,35 @@ $formulario-bg-color: #622D55;
 $formulario-border-radius: 15px;
 $formulario-max-width: 1200px;
 $formulario-padding: 20px;
+$formulario-margin-vertical: 20px;
 
 .formulario {
   color: $formulario-color;
   background-color: $formulario-bg-color;
   border-radius: $formulario-border-radius;
   max-width: $formulario-max-width;
-  margin: 0 auto;
+  margin: $formulario-margin-vertical auto;
   padding: $formulario-padding;
+}
+
+// Estilos para el botón de enviar fuera del contexto del formulario
+button {
+  background-color: transparent; // Hacer el fondo del botón transparente
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center; // Centrar horizontalmente el contenido dentro del botón
+  align-items: center; // Centrar verticalmente el contenido dentro del botón
+  margin: 20px auto; // Centrar horizontalmente el botón
 }
 
 @media (max-width: 600px) {
   .formulario {
-      padding: 10px;
+    padding: 10px;
+    margin: $formulario-margin-vertical/2 auto;
   }
 }

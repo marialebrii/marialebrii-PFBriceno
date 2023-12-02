@@ -1,16 +1,15 @@
-.navbar-nav {
-  .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 5rem;
+.encabezado {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
 
-    &-nav-item {
-      font-size: $font-medium;
-    }
+  .navbar {
+    font-size: $font-medium;
   }
 }
+
 
   
 

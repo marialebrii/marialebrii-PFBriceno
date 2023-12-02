@@ -1,5 +1,6 @@
 .banner:hover {
-    width: 95%;
-    background-color: black transparent;
+    background-color: #69375d;
+    color: #b3b3b3; 
+    transform: scale(1.1);
 }
 
