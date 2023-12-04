@@ -1,25 +1,28 @@
-section {
-    @include flex-center;
-    gap: 20px; 
-    margin: 20px; 
-  
-    
-  
-    div {
-      flex-grow: 1; 
-      max-width: 600px; 
-  
-      h2 {
-        color: $font-color-principal; 
-        font-size: 4rem; 
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+}
 
-      }
-  
-      p {
-        color: $font-color-secondary; 
-        font-size: 1.5rem; 
-        margin-bottom: 10px; 
-      }
+  div {
+        max-width: 1200px; 
+
+    h2 {
+      color: $font-color-principal; 
+      font-size: 3rem; 
+
+    }
+
+    p {
+      color: $font-color-secondary; 
+      font-size: 1.5rem; 
+      margin-bottom: 10px; 
     }
   }
+
+
+
+
   
